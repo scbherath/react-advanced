@@ -1,0 +1,21 @@
+
+//action types
+export const SET_LOADING = 'SET_LOADING';
+export const SET_RESPONSE_RESULT = 'SET_RESPONSE_RESULT';
+export const SET_RESPONSE_ERROR = 'SET_RESPONSE_ERROR';
+
+//filter actions
+export const SET_FILTER_CATEGORY = 'SET_FILTER_CATEGORY';
+export const SET_CLEAR_FILTER = 'SET_CLEAR_FILTER';
+
+// export const ACTION_TYPES = {
+//     SET_LOADING : 'SET_LOADING',
+//     SET_RESPONSE_RESULT : 'SET_RESPONSE_RESULT',
+//     SET_RESPONSE_ERROR : 'SET_RESPONSE_ERROR',
+// }
+// //filter actions
+// export const FILTER_TYPES = {
+//     SET_FILTER_CATEGORY : 'SET_FILTER_CATEGORY',
+//     SET_CLEAR_FILTER : 'SET_CLEAR_FILTER',
+// }
+

@@ -1,0 +1,82 @@
+{    
+    "vans": [
+      {
+        "id":1,
+        "thumb":"https://autotraderau-res.cloudinary.com/t_cg_listing_grid_c/inventory/2023-07-09/79754749398861/13216690/2020_ford_transit_Used_1.jpg",
+        "category":"luxurey",
+        "name":"Speedy Wheels",
+        "price":"5000 USD",
+        "body":"quick example Some quick example Some quick example Some quick example Some quick example",
+        "weight":"500 Kg",
+        "brand":"Renault",
+        "color":"Blue"
+      },
+      {
+        "id":2,
+        "thumb":"https://s1.cdn.autoevolution.com/images/news/this-1967-vw-bus-is-ready-to-conquer-summer-209885_1.jpg",
+        "category": "simple",
+        "name": "Swift Transits X400",
+        "price": "$31,499",
+        "body": "High Roof quick example Some quick example Some quick",
+        "weight": "3,100 kg",
+        "brand": "Swift Transits",
+        "color": "Gray"
+      },
+      {
+        "id":3,
+        "thumb": "https://th-thumbnailer.cdn-si-edu.com/guy0Li4U-Rm6zhJhFbnovb9VHIQ=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/76/47/7647deda-76a2-4b7d-aa3f-7aff09453c4e/vw_microbus_1964.jpg",
+        "category": "luxurey",
+        "name": "Speedy Wheels Cargo Master",
+        "price": "$25,499",
+        "body": "Medium Roof quick example Some quick example Some quick",
+        "weight": "2,800 kg",
+        "brand": "Horizon Motors",
+        "color": "White"
+      },{
+        "id":4,
+        "thumb": "https://s1.cdn.autoevolution.com/images/news/this-1967-vw-bus-is-ready-to-conquer-summer-209885_1.jpg",
+        "category": "simple",
+        "name": "Star Voyager XL",
+        "price": "$32,999",
+        "body": "High Roof quick example Some quick example Some quick",
+        "weight": "3,200 kg",
+        "brand": "Stellar Vans",
+        "color": "Blue"
+      },{
+        "id":5,
+        "thumb": "https://s1.cdn.autoevolution.com/images/news/this-1967-vw-bus-is-ready-to-conquer-summer-209885_1.jpg",
+        "category": "luxurey",
+        "name": "Cosmic Caravan SE",
+        "price": "$21,899",
+        "body": "quick example Some quick example Some quick  Roof",
+        "weight": "2,500 kg",
+        "brand": "Galaxy Transport",
+        "color": "Silver"
+      },{
+        "id":6,
+        "thumb": "https://images.squarespace-cdn.com/content/v1/5e7918a4b1051f6e49dcfdb1/1586051272601-UAC4UNFET2WCK8Z0F8EZ/17_sd_is.jpg?format=750w",
+        "category": "rugged",
+        "name": "Velocity Transporter 2000",
+        "price": "$27,999",
+        "body": "High quick example Some quick example Some quick Roof",
+        "weight": "3,000 kg",
+        "brand": "Velocity Vehicles",
+        "color": "Red"
+      },{
+        "id":7,
+        "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgoopiIXOJq793a9hBzMgvF-h7DooChNBbPZhAgXK1&s",
+        "category": "luxurey",
+        "name": "Moonlight Hauler Pro",
+        "price": "$29,999",
+        "body": "quick example Some quick example Some quick High Roof 1234",
+        "weight": "3,300 kg",
+        "brand": "Moonlight Motors",
+        "color": "Black"
+      }
+      
+      
+      
+      
+      
+    ]
+}
