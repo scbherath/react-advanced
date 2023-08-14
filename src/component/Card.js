@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import Image from './Image';
 import Button from './Button'
 import 'bootstrap/dist/css/bootstrap.css';
 
 //thumb, name, category,price, body, weight, brand, color, more
-const Card = ({id, thumb, category, name, price, body, weight, brand, color}) => {
+const Card = ({id, name, email, location, zipcode, postalCode}) => {
 
     const [isVisible, setIsVisible] = useState(false)
 
@@ -13,34 +12,34 @@ const Card = ({id, thumb, category, name, price, body, weight, brand, color}) =>
     }
 
     return ( 
-            <div className='col-md-6'>
-                <div className="card" >                
-                    {/* <Image src={thumb} width="200px"  />                */}
-                    <div className="card-body">
-                        <h5 className="card-title">{name}</h5>
-                        <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}} >
-                            <span> {category}</span>
-                            <span>{price}</span>
-                        </div>
-                        <div style={{ display: 'flex',justifyContent: 'space-between',flexDirection: 'row-reverse'}}> 
+            <div className='col-md-12'>
+                <div className="card border border-success shadow-0 mb-3" >
+                <div className="card-header bg-transparent border-success">{name}</div>
+                <div className="card-body text-success">
+                    <p className="card-text">{email}</p>
+                    <div style={{ display: 'flex',justifyContent: 'space-between',flexDirection: 'row-reverse'}}> 
                             <Button type='primary' onClick={handleVisibility} > { isVisible?'Less':'View More' }</Button>
                         </div>
-                    </div>                    
                     {
-                        isVisible?                    
-                            <div className="card-body" >  
-                                <p>{body}</p>
-                                <p> weight : {weight}</p>
-                                <p>brand : {brand}</p>
-                                <p>color : {color}</p>                        
-                            </div>
-                        : null
-                    }
-                    
+                    isVisible?                    
+                        <div className="card-body" >  
+                            <p>Location : {location} </p>   
+                            <p>Zipcode : {zipcode} </p>   
+                            <p>PostalCode : {postalCode} </p>   
+                        </div>
+                    : null
+                    }     
                 </div>
-                <p></p>
+                
+                <div className="card-footer bg-transparent border-success " style={{ alignItems:'center'}}>
+                    <Button type='success' > Edit</Button>  {' '}  
+                    <Button type='danger' > Delete</Button>  {' '}    
+                    <Button type='warning' > View</Button>    
+                </div>
             </div>
-
+              
+            <p></p>
+            </div>
     );
 };
 

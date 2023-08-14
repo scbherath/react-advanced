@@ -4,26 +4,15 @@ import Card from './Card';
 
 import Spinner from './Spinner/Spinner';
 
-
-import { VehicleContext } from '../context/VehicleContext';
-
-const DataViewer = ({data}) => {
-
-    //const { useFetch } = useContext(VehicleContext)
-    //const [loading, result, error] = useFetch('/vans')
-    //console.log('data',data);
-   // const data = result ? result : null
-
-    //error and loading effet use is valid ????
-    //if(error) return <div>{error}</div>
+const Collection = ({users}) => {
 
     return (
             <div className='row'>     
             {/* {loading?<Spinner/>:null}                         */}
             {
-                data?
-                data.map((van) => (                    
-                    <Card key={van.id} {...van} />
+                users?
+                users.map((user) => (                    
+                    <Card key={user.id} {...user} />
                 ))
                 :<div><b>No data available</b></div> 
             } 
@@ -31,4 +20,4 @@ const DataViewer = ({data}) => {
     );
 };
 
-export default DataViewer;
+export default Collection;
